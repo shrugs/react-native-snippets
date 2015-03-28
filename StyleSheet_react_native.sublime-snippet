@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+/* @flow */
+'use strict';
+
+var React = require('react-native');
+
+var {
+  StyleSheet,
+} = React;
+
+module.exports = StyleSheet.create({
+  ${1}: ${2},
+});
+]]></content>
+  <tabTrigger>css</tabTrigger>
+  <!-- the abbreviation is hilariously `css` -->
+  <!-- actually stands for create style sheet -->
+  <scope>source.js,source.jsx</scope>
+  <description>Create StyleSheet</description>
+</snippet>

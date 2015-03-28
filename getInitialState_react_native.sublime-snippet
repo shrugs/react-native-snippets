@@ -1,7 +1,9 @@
 <snippet>
   <content><![CDATA[
 getInitialState: function() {
-  ${1}
+  return {
+    ${1}: ${2},
+  };
 },
 ]]></content>
   <tabTrigger>gis</tabTrigger>

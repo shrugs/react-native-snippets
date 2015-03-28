@@ -4,18 +4,43 @@ A collection of Sublime Text snippets for [react-native](https://github.com/face
 
 ## Install
 
-Install via [Package Control](http://wbond.net/sublime_packages/package_control) by searching for `react-native-snippets`.
+Install via [Package Control](http://wbond.net/sublime_packages/package_control) by searching for `react-native-snippets`. (Once the pull request is merged. I will remove this line once it has been.)
 
 ## Snippets
+
+<table>
+    <tr>
+        <th>Snippet</th>
+        <th>Tab Trigger</th>
+    </tr>
+    <tr>
+      <td>Create React Native Class</td>
+      <td>rncc</td>
+    </tr>
+    <tr>
+      <td>this.setState()</td>
+      <td>tss</td>
+    </tr>
+    <tr>
+      <td>Create StyleSheet</td>
+      <td>css</td>
+    </tr>
+    <tr>
+      <td>StyleSheet.create()</td>
+      <td>ssc</td>
+    </tr>
+    <tr>
+      <td>React.PropTypes.</td>
+      <td>rpt</td>
+    </tr>
+</table>
+
+### Lifecycle Methods
 
 <table>
   <tr>
     <th>Snippet</th>
     <th>Tab Trigger</th>
-  </tr>
-  <tr>
-    <td>Create React Native Class</td>
-    <td>rncc</td>
   </tr>
   <tr>
     <td>componentWillMount()</td>
@@ -53,10 +78,19 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
     <td>propTypes:</td>
     <td>pt</td>
   </tr>
-  <tr>
-    <td>this.setState()</td>
-    <td>tss</td>
-  </tr>
+</table>
+
+### Components
+
+<table>
+    <tr>
+        <th>Snippet</th>
+        <th>Tab Trigger</th>
+    </tr>
+    <tr>
+        <td><a href="http://facebook.github.io/react-native/docs/activityindicatorios.html#content">ActivityIndicatorIOS</a></td>
+        <td>ActivityIndicatorIOS</td>
+    </tr>
 </table>
 
 Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sublime-react).

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<ActivityIndicatorIOS
+  ${1:animating={true\}}
+  ${2:color={'#808080'\}}
+  ${3:size={'small'\}} />
+${4}
+]]></content>
+  <tabTrigger>ActivityIndicatorIOS</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>ActivityIndicatorIOS</description>
+</snippet>
