@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+  <ListView
+    style={${1}}
+    dataSource={${2:this.state.dataSource}}
+    renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}} />
+  ${5}
+]]></content>
+  <tabTrigger>ListView</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>ListView</description>
+</snippet>
