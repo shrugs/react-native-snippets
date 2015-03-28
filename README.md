@@ -95,6 +95,10 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
         <td><a href="http://facebook.github.io/react-native/docs/datepickerios.html#content">DatePickerIOS</a></td>
         <td>DatePickerIOS</td>
     </tr>
+    <tr>
+        <td><a href="http://facebook.github.io/react-native/docs/image.html#content">Image</a></td>
+        <td>Image</td>
+    </tr>
 </table>
 
 Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sublime-react).
