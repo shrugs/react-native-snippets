@@ -4,7 +4,7 @@ this.setState({
   ${1}: ${2},
 });
 ]]></content>
-  <tabTrigger>cdm</tabTrigger>
+  <tabTrigger>tss</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>componentDidMount()</description>
 </snippet>
