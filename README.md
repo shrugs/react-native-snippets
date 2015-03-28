@@ -18,28 +18,28 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
     <td>rncc</td>
   </tr>
   <tr>
-    <td>componentDidMount()</td>
-    <td>cdm</td>
-  </tr>
-  <tr>
     <td>componentWillMount()</td>
     <td>cwm</td>
   </tr>
   <tr>
-    <td>componentDidUnMount()</td>
-    <td>cdum</td>
+    <td>componentDidMount()</td>
+    <td>cdm</td>
   </tr>
   <tr>
     <td>componentWillUnMount()</td>
     <td>cwum</td>
   </tr>
   <tr>
-    <td>componentDidUpdate()</td>
-    <td>cdud</td>
+    <td>componentDidUnMount()</td>
+    <td>cdum</td>
   </tr>
   <tr>
     <td>componentWillUpdate()</td>
     <td>cwud</td>
+  </tr>
+  <tr>
+    <td>componentDidUpdate()</td>
+    <td>cdud</td>
   </tr>
   <tr>
     <td>componentWillReceiveProps()</td>
