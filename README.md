@@ -103,6 +103,10 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
         <td><a href="http://facebook.github.io/react-native/docs/listview.html#content">ListView</a></td>
         <td>ListView</td>
     </tr>
+    <tr>
+        <td><a href="http://facebook.github.io/react-native/docs/navigatorios.html#content">NavigatorIOS</a></td>
+        <td>NavigatorIOS</td>
+    </tr>
 </table>
 
 Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sublime-react).

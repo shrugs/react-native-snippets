@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+  <MapView
+    style={${1}}
+    region={{
+      latitude: ${2:37.484419},
+      longitude: ${3:-122.1499859},
+      latitudeDelta: 0.04,
+      longitudeDelta: 0.04,
+    }}
+    renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}} />
+  ${5}
+]]></content>
+  <tabTrigger>MapView</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>MapView</description>
+</snippet>

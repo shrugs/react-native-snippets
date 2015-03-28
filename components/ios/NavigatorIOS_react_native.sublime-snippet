@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+  <NavigatorIOS
+    style={${1}}
+    initialRoute={{
+      title: '${1:Title}',
+      component: ${2:View}
+    }} />
+  ${3}
+]]></content>
+  <tabTrigger>NavigatorIOS</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>NavigatorIOS</description>
+</snippet>
