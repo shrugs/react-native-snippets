@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+/* @flow */
+'use strict';
+
+var React = require('react-native');
+
+var {
+  StyleSheet,
+  View,
+} = React;
+
+var ${1:Component} = React.createClass({
+  render: function() {
+    return (
+      <View />
+    );
+  }
+});
+
+
+var styles = StyleSheet.create({
+
+});
+
+
+module.exports = ${1:Component};
+
+]]></content>
+  <tabTrigger>rncc</tabTrigger>
+  <scope>source.js</scope>
+  <description>Create react-native Class</description>
+</snippet>
