@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<PickerIOS
+  onValueChange={${1:this.onValueChange}}
+  selectedValue={${2}} />
+]]></content>
+  <tabTrigger>PickerIOS</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>PickerIOS</description>
+</snippet>

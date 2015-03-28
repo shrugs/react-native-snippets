@@ -107,6 +107,10 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
         <td><a href="http://facebook.github.io/react-native/docs/navigatorios.html#content">NavigatorIOS</a></td>
         <td>NavigatorIOS</td>
     </tr>
+    <tr>
+        <td><a href="http://facebook.github.io/react-native/docs/pickerios.html#content">PickerIOS</a></td>
+        <td>PickerIOS</td>
+    </tr>
 </table>
 
 Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sublime-react).
