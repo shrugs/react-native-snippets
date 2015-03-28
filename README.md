@@ -91,6 +91,10 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
         <td><a href="http://facebook.github.io/react-native/docs/activityindicatorios.html#content">ActivityIndicatorIOS</a></td>
         <td>ActivityIndicatorIOS</td>
     </tr>
+    <tr>
+        <td><a href="http://facebook.github.io/react-native/docs/datepickerios.html#content">DatePickerIOS</a></td>
+        <td>DatePickerIOS</td>
+    </tr>
 </table>
 
 Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sublime-react).
