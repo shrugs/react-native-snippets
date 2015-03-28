@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<Image
+  style={${1}}
+  source={{uri: '${2}'}} />
+${3}
+]]></content>
+  <tabTrigger>Image</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Image</description>
+</snippet>
