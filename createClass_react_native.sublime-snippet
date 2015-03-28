@@ -28,6 +28,6 @@ module.exports = ${1:Component};
 
 ]]></content>
   <tabTrigger>rncc</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.jsx</scope>
   <description>Create react-native Class</description>
 </snippet>

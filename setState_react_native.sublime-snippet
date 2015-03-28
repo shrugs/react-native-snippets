@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.setState({
+  ${1}: ${2},
+});
+]]></content>
+  <tabTrigger>cdm</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>componentDidMount()</description>
+</snippet>

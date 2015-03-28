@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+componentDidMount: function() {
+  ${1}
+},
+]]></content>
+  <tabTrigger>cdm</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>componentDidMount()</description>
+</snippet>

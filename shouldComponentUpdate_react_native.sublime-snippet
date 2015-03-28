@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+shouldComponentUpdate: function(nextProps, nextState) {
+  ${1}
+},
+]]></content>
+  <tabTrigger>scud</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>shouldComponentUpdate(object nextProps, object nextState)</description>
+</snippet>
