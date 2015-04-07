@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<ScrollView
+  contentContainerStyle={${1:styles.contentContainer}}
+  style={${2:style.scrollView}}>
+  ${3}
+</ScrollView>
+]]></content>
+  <tabTrigger>ScrollView</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>ScrollView</description>
+</snippet>
