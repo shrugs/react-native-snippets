@@ -4,7 +4,7 @@ A collection of Sublime Text snippets for [react-native](https://github.com/face
 
 ## Install
 
-Install via [Package Control](http://wbond.net/sublime_packages/package_control) by searching for `react-native-snippets`. (Once the pull request is merged. I will remove this line once it has been.)
+Install via [Package Control](http://wbond.net/sublime_packages/package_control) by searching for `react-native-snippets`.
 
 ## Snippets
 
