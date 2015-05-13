@@ -10,14 +10,13 @@ var {
   View,
 } = React;
 
-var ${1:Component} = React.createClass({
-  render: function() {
+class ${1:Component} extends React.Component {
+  render() {
     return (
       <View />
     );
   }
-});
-
+}
 
 var styles = StyleSheet.create({
 
