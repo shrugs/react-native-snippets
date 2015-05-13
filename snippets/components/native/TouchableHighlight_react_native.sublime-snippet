@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<TouchableHighlight
+  onPress={${1}}
+  style={${2}}
+  underlayColor='${3}'>
+  ${4}
+</TouchableHighlight>
+]]></content>
+  <tabTrigger>TouchableHighlight</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>TouchableHighlight</description>
+</snippet>
