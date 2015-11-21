@@ -133,3 +133,7 @@ Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sub
 6. Profit!
 
 Try to make your snippet tab triggers follow a syllable-based fuzzy-search style. For example for `componentWillUpdate()`, `cwud` is preferred over `cwup`.
+
+## LICENSE
+
+MIT, see `LICENSE`
