@@ -1,16 +1,13 @@
 <snippet>
   <content><![CDATA[
-/* @flow */
-'use strict';
+import React, { Component } from 'react-native';
 
-var React = require('react-native');
-
-var {
+const {
   StyleSheet,
   View,
 } = React;
 
-class ${1:Component} extends React.Component {
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
   render() {
     return (
       <View />
@@ -23,7 +20,7 @@ var styles = StyleSheet.create({
 });
 
 
-module.exports = ${1:Component};
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
 
 ]]></content>
   <tabTrigger>rncc</tabTrigger>
