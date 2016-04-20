@@ -11,7 +11,7 @@
   renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}} />
 ${5}
 ]]></content>
-  <tabTrigger>MapView</tabTrigger>
+  <tabTrigger>&lt;MapView</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>MapView</description>
 </snippet>

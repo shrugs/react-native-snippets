@@ -2,7 +2,7 @@
   <content><![CDATA[
 <View style={styles.${1}}>${2}</View>
 ]]></content>
-  <tabTrigger>View_</tabTrigger>
+  <tabTrigger>&lt;View</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>View</description>
 </snippet>

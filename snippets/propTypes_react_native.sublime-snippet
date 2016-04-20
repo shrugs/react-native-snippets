@@ -1,10 +1,8 @@
 <snippet>
-  <content><![CDATA[
-propTypes: {
-  ${1}: React.PropTypes.${2},
-},
-]]></content>
-  <tabTrigger>pt</tabTrigger>
+  <content><![CDATA[${1:${TM_FILENAME/(.+)\..+|.*/$1/:Component}}.propTypes = {
+  ${2:prop}: React.PropTypes.${3:Type}
+}]]></content>
+  <tabTrigger>propTypes</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>propTypes:</description>
+  <description>propTypes</description>
 </snippet>

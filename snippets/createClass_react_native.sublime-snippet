@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-import React, { Component } from 'react-native';
+'use strict';
 
-const {
+import React, {
   StyleSheet,
   View,
-} = React;
+} from 'react-native';
 
-class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends React.Component {
   render() {
     return (
       <View />
@@ -15,13 +15,12 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
   }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
 
 });
 
 
-export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
-
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};
 ]]></content>
   <tabTrigger>rncc</tabTrigger>
   <scope>source.js,source.jsx</scope>

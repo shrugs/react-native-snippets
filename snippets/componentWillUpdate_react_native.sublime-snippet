@@ -1,9 +1,7 @@
 <snippet>
-  <content><![CDATA[
-componentWillUpdate: function(nextProps, nextState) {
+  <content><![CDATA[componentWillUpdate(nextProps, nextState) {
   ${1}
-},
-]]></content>
+}]]></content>
   <tabTrigger>cwud</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>componentWillUpdate(object nextProps, object nextState)</description>

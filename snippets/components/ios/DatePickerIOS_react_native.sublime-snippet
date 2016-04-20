@@ -9,7 +9,7 @@ ${8:  maximumDate={${9}\}}
 ${10:  minimumDate={${11}\}} />
 ${12}
 ]]></content>
-  <tabTrigger>DatePickerIOS</tabTrigger>
+  <tabTrigger>&lt;DatePickerIOS</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>DatePickerIOS</description>
 </snippet>

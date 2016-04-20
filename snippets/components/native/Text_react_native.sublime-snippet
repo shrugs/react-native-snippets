@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<Text style={styles.${1}}>
+  ${2}
+</Text>]]></content>
+  <tabTrigger>&lt;Text</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Text</description>
+</snippet>

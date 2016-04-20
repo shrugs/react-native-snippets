@@ -2,11 +2,11 @@
   <content><![CDATA[
 <ScrollView
   contentContainerStyle={${1:styles.contentContainer}}
-  style={${2:style.scrollView}}>
+  style={${2:styles.scrollView}}>
   ${3}
 </ScrollView>
 ]]></content>
-  <tabTrigger>ScrollView</tabTrigger>
+  <tabTrigger>&lt;ScrollView</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>ScrollView</description>
 </snippet>

@@ -1,9 +1,7 @@
 <snippet>
-  <content><![CDATA[
-componentWillReceiveProps: function(nextProps) {
+  <content><![CDATA[componentWillReceiveProps(nextProps) {
   ${1}
-},
-]]></content>
+}]]></content>
   <tabTrigger>cwrp</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>componentWillReceiveProps(object nextProps)</description>

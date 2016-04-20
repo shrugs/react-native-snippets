@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[<Navigator
+  initialRoute={{name: '${1:My First Scene}', index: 0}}
+  renderScene={(route, navigator) => {
+    ${2}
+  }}
+/>]]></content>
+  <tabTrigger>&lt;Navigator</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Navigator</description>
+</snippet>

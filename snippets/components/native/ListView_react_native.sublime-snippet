@@ -6,7 +6,7 @@
   renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}} />
 ${5}
 ]]></content>
-  <tabTrigger>ListView</tabTrigger>
+  <tabTrigger>&lt;ListView</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>ListView</description>
 </snippet>

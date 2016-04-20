@@ -1,9 +1,7 @@
 <snippet>
-  <content><![CDATA[
-componentDidUpdate: function(prevProps, prevState) {
+  <content><![CDATA[componentDidUpdate(prevProps, prevState) {
   ${1}
-},
-]]></content>
+}]]></content>
   <tabTrigger>cdud</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>componentDidUpdate(object prevProps, object prevState)</description>

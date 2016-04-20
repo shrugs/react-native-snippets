@@ -7,7 +7,7 @@
   ${4}
 </TouchableHighlight>
 ]]></content>
-  <tabTrigger>TouchableHighlight</tabTrigger>
+  <tabTrigger>&lt;TouchableHighlight</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>TouchableHighlight</description>
 </snippet>

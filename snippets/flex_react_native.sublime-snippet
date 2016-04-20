@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[flex: ${1:1},]]></content>
+  <tabTrigger>f1</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>flex: 1</description>
+</snippet>

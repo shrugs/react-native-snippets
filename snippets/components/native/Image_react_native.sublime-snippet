@@ -5,7 +5,7 @@
   source={{uri: '${2}'}} />
 ${3}
 ]]></content>
-  <tabTrigger>Image</tabTrigger>
+  <tabTrigger>&lt;Image</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>Image</description>
 </snippet>

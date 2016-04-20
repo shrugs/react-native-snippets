@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[justifyContent: '${1:center}',]]></content>
+  <tabTrigger>jc</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>justifyContent: 'center',</description>
+</snippet>
