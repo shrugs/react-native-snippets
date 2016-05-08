@@ -2,12 +2,14 @@
   <content><![CDATA[
 'use strict';
 
-import React, {
+import React, { Component } from 'react';
+
+import {
   StyleSheet,
   View,
 } from 'react-native';
 
-class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends React.Component {
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
   render() {
     return (
       <View />
