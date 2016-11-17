@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"componentWillUnmount()":
+		prefix: "cwum"
+		body: '''
+			componentWillUnmount() {
+			  ${1}
+			}$0
+		'''

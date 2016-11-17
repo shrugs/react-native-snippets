@@ -1,0 +1,14 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	DatePickerIOS:
+		prefix: "<DatePickerIOS"
+		body: '''
+			<DatePickerIOS
+			  ${1:date={Date.now()\\}}
+			${2:  minuteInterval={${3:10}\\}}
+			${4:  mode={${5:'datetime'}\\}}
+			${6:  onDateChange={${7}\\}}
+			${8:  maximumDate={${9}\\}}
+			${10:  minimumDate={${11}\\}} />
+			${12}$0
+		'''

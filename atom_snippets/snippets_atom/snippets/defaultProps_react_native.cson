@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"defaultProps()":
+		prefix: "defaultProps"
+		body: '''
+			${1:${TM_FILENAME/(.+)\\..+|.*/$1/:Component}}.defaultProps = {
+			  ${2}
+			}$0
+		'''

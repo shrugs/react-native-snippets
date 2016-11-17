@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"justifyContent: 'center',":
+		prefix: "jc"
+		body: "justifyContent: '${1:center}',$0"

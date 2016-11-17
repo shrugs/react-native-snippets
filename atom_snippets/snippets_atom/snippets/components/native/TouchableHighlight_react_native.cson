@@ -1,0 +1,12 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	TouchableHighlight:
+		prefix: "<TouchableHighlight"
+		body: '''
+			<TouchableHighlight
+			  onPress={${1}}
+			  style={${2}}
+			  underlayColor='${3}'>
+			  ${4}
+			</TouchableHighlight>$0
+		'''

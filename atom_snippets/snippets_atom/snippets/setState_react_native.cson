@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"componentDidMount()":
+		prefix: "tss"
+		body: '''
+			this.setState({
+			  ${1}: ${2},
+			});$0
+		'''

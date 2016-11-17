@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"React.PropTypes.":
+		prefix: "rpt"
+		body: "React.PropTypes.${1}$0"

@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"componentWillReceiveProps(object nextProps)":
+		prefix: "cwrp"
+		body: '''
+			componentWillReceiveProps(nextProps) {
+			  ${1}
+			}$0
+		'''
