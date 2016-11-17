@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"alignItems: 'center',":
+		prefix: "ai"
+		body: "alignItems: '${1:center}',$0"

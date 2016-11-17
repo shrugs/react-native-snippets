@@ -1,0 +1,5 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	View:
+		prefix: "<View"
+		body: "<View style={styles.${1}}>${2}</View>$0"

@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"componentWillUpdate(object nextProps, object nextState)":
+		prefix: "cwud"
+		body: '''
+			componentWillUpdate(nextProps, nextState) {
+			  ${1}
+			}$0
+		'''
