@@ -6,7 +6,9 @@ A collection of [React Native](https://github.com/facebook/react-native) snippet
 
 ## Install
 
-Install by searching for `react-native-snippets` in [Package Control](http://wbond.net/sublime_packages/package_control) or the [Atom Package Manager](https://github.com/atom/apm).
+Install by searching for `react-native-snippets` in [Package Control](http://wbond.net/sublime_packages/package_control)
+
+For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager](https://github.com/atom/apm).
 
 ## Snippets
 
