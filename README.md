@@ -85,11 +85,11 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
     <td>scud</td>
   </tr>
   <tr>
-    <td>.propTypes = {}</td>
+    <td>static propTypes = {}</td>
     <td>propTypes</td>
   </tr>
   <tr>
-    <td>.defaultProps = {}</td>
+    <td>static defaultProps = {}</td>
     <td>defaultProps</td>
   </tr>
   <tr>
@@ -115,43 +115,43 @@ Install via [Package Control](http://wbond.net/sublime_packages/package_control)
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/activityindicatorios.html#content">ActivityIndicatorIOS</a></td>
-        <td>&lt;ActivityIndicatorIOS</td>
+        <td>rnActivityIndicatorIOS</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/datepickerios.html#content">DatePickerIOS</a></td>
-        <td>&lt;DatePickerIOS</td>
+        <td>rnDatePickerIOS</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/image.html#content">Image</a></td>
-        <td>&lt;Image</td>
+        <td>rnImage</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/listview.html#content">ListView</a></td>
-        <td>&lt;ListView</td>
+        <td>rnListView</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/navigator.html#content">Navigator</a></td>
-        <td>&lt;Navigator</td>
+        <td>rnNavigator</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/navigatorios.html#content">NavigatorIOS</a></td>
-        <td>&lt;NavigatorIOS</td>
+        <td>rnNavigatorIOS</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/pickerios.html#content">PickerIOS</a></td>
-        <td>&lt;PickerIOS</td>
+        <td>rnPickerIOS</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/text.html#content">Text</a></td>
-        <td>&lt;Text</td>
+        <td>rnText</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/touchablehighlight.html#content">TouchableHighlight</a></td>
-        <td>&lt;TouchableHighlight</td>
+        <td>rnTouchableHighlight</td>
     </tr>
     <tr>
         <td><a href="http://facebook.github.io/react-native/docs/view.html#content">View</a></td>
-        <td>&lt;View</td>
+        <td>rnView</td>
     </tr>
 </table>
 

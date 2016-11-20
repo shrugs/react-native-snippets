@@ -12,7 +12,7 @@ import {
 class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
   render() {
     return (
-      <View />
+      ${2:<View />}
     );
   }
 }

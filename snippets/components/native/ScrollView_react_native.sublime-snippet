@@ -6,7 +6,7 @@
   ${3}
 </ScrollView>
 ]]></content>
-  <tabTrigger>&lt;ScrollView</tabTrigger>
+  <tabTrigger>rnScrollView</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>ScrollView</description>
 </snippet>

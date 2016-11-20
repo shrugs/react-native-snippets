@@ -2,10 +2,11 @@
   <content><![CDATA[
 <Image
   style={${1}}
-  source={{uri: '${2}'}} />
+  source={{uri: '${2}'}}
+/>
 ${3}
 ]]></content>
-  <tabTrigger>&lt;Image</tabTrigger>
+  <tabTrigger>rnImage</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>Image</description>
 </snippet>

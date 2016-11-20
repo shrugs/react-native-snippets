@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 this.setState({
-  ${1}: ${2},
+  ${1:key}: ${2:'value'},
 });
 ]]></content>
   <tabTrigger>tss</tabTrigger>

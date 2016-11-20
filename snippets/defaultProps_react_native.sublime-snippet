@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[${1:${TM_FILENAME/(.+)\..+|.*/$1/:Component}}.defaultProps = {
-  ${2}
+  <content><![CDATA[static defaultProps = {
+  ${2:prop}: ${3:'value'}
 }]]></content>
   <tabTrigger>defaultProps</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>defaultProps()</description>
+  <description>defaultProps</description>
 </snippet>

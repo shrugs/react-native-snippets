@@ -5,7 +5,7 @@
   ${3:size={'small'\}}
 />
 ${4}]]></content>
-  <tabTrigger>&lt;ActivityIndicatorIOS</tabTrigger>
+  <tabTrigger>rnActivityIndicatorIOS</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>ActivityIndicatorIOS</description>
 </snippet>

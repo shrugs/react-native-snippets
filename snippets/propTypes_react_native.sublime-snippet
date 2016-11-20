@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[${1:${TM_FILENAME/(.+)\..+|.*/$1/:Component}}.propTypes = {
+  <content><![CDATA[static propTypes = {
   ${2:prop}: React.PropTypes.${3:Type}
 }]]></content>
   <tabTrigger>propTypes</tabTrigger>
