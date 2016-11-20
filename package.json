@@ -1,6 +1,6 @@
 {
   "name": "react-native-snippets-horse",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A collection of React Native snippets for Sublime Text and Atom",
   "main": "index.js",
   "repository": {
