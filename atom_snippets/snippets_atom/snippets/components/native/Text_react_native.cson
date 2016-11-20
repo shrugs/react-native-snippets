@@ -1,9 +1,0 @@
-# Generated with Atomizr – https://atom.io/packages/atomizr
-".source.js,source.jsx":
-	Text:
-		prefix: "<Text"
-		body: '''
-			<Text style={styles.${1}}>
-			  ${2}
-			</Text>$0
-		'''

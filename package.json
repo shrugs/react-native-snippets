@@ -1,0 +1,24 @@
+{
+  "name": "react-native-snippets-horse",
+  "version": "1.0.0",
+  "description": "A collection of React Native snippets for Sublime Text and Atom",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrugs/react-native-snippets.git"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "snippets"
+  ],
+  "author": "Matt Condon <m@cond.in> (http://mat.tc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shrugs/react-native-snippets/issues"
+  },
+  "homepage": "https://github.com/Shrugs/react-native-snippets#readme"
+}

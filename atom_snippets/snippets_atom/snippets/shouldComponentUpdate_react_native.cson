@@ -1,9 +1,0 @@
-# Generated with Atomizr – https://atom.io/packages/atomizr
-".source.js,source.jsx":
-	"shouldComponentUpdate(object nextProps, object nextState)":
-		prefix: "scud"
-		body: '''
-			shouldComponentUpdate(nextProps, nextState) {
-			  ${1}
-			}$0
-		'''

@@ -1,12 +1,12 @@
 # react-native-snippets
 
-A collection of Sublime Text snippets for [react-native](https://github.com/facebook/react-native).
+A collection of [React Native](https://github.com/facebook/react-native) snippets for Sublime Text and Atom.
 
-**These snippets use ES6 syntax.**
+**These snippets use ES6/7 syntax.**
 
 ## Install
 
-Install via [Package Control](http://wbond.net/sublime_packages/package_control) by searching for `react-native-snippets`.
+Install by searching for `react-native-snippets` in [Package Control](http://wbond.net/sublime_packages/package_control) or the [Atom Package Manager](https://github.com/atom/apm).
 
 ## Snippets
 

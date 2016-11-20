@@ -1,0 +1,248 @@
+# Generated with Atomizr - https://github.com/idleberg/atomizr.rb
+'.source.js,source.jsx':
+  'alignItems: \'center\',':
+    'prefix': 'ai'
+    'body': 'alignItems: \'${1:center}\',$0'
+  'componentDidMount()':
+    'prefix': 'tss'
+    'body': """
+      this.setState({
+        ${1:key}: ${2:\'value\'},
+      });$0
+    """
+  'componentDidUpdate(object prevProps, object prevState)':
+    'prefix': 'cdud'
+    'body': """
+      componentDidUpdate(prevProps, prevState) {
+        ${1}
+      }$0
+    """
+  'ActivityIndicatorIOS':
+    'prefix': 'rnActivityIndicatorIOS'
+    'body': """
+      <ActivityIndicatorIOS
+        ${1:animating={true\}}
+        ${2:color={\'#808080\'\}}
+        ${3:size={\'small\'\}}
+      />
+      ${4}$0
+    """
+  'DatePickerIOS':
+    'prefix': 'rnDatePickerIOS'
+    'body': """
+      <DatePickerIOS
+        ${1:date={Date.now()\}}
+      ${2:  minuteInterval={${3:10}\}}
+      ${4:  mode={${5:\'datetime\'}\}}
+      ${6:  onDateChange={${7}\}}
+      ${8:  maximumDate={${9}\}}
+      ${10:  minimumDate={${11}\}}
+      />
+      ${12}$0
+    """
+  'NavigatorIOS':
+    'prefix': 'rnNavigatorIOS'
+    'body': """
+      <NavigatorIOS
+        style={${1}}
+        initialRoute={{
+          title: \'${1:Title}\',
+          component: ${2:View}
+        }}
+      />
+      ${3}$0
+    """
+  'PickerIOS':
+    'prefix': 'rnPickerIOS'
+    'body': """
+      <PickerIOS
+        onValueChange={${1:this.onValueChange}}
+        selectedValue={${2}}
+      />$0
+    """
+  'Image':
+    'prefix': 'rnImage'
+    'body': """
+      <Image
+        style={${1}}
+        source={{uri: \'${2}\'}}
+      />
+      ${3}$0
+    """
+  'ListView':
+    'prefix': 'rnListView'
+    'body': """
+      <ListView
+        style={${1}}
+        dataSource={${2:this.state.dataSource}}
+        renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}}
+      />
+      ${5}$0
+    """
+  'MapView':
+    'prefix': 'rnMapView'
+    'body': """
+      <MapView
+        style={${1}}
+        region={{
+          latitude: ${2:37.484419},
+          longitude: ${3:-122.1499859},
+          latitudeDelta: 0.04,
+          longitudeDelta: 0.04,
+        }}
+        renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}}
+      />
+      ${5}$0
+    """
+  'Navigator':
+    'prefix': 'rnNavigator'
+    'body': """
+      <Navigator
+        initialRoute={{name: \'${1:My First Scene}\', index: 0}}
+        renderScene={(route, navigator) => {
+          ${2}
+        }}
+      />$0
+    """
+  'ScrollView':
+    'prefix': 'rnScrollView'
+    'body': """
+      <ScrollView
+        contentContainerStyle={${1:styles.contentContainer}}
+        style={${2:styles.scrollView}}>
+        ${3}
+      </ScrollView>$0
+    """
+  'Text':
+    'prefix': 'rnText'
+    'body': """
+      <Text style={styles.${1}}>
+        ${2}
+      </Text>$0
+    """
+  'TouchableHighlight':
+    'prefix': 'rnTouchableHighlight'
+    'body': """
+      <TouchableHighlight
+        onPress={${1}}
+        style={${2}}
+        underlayColor=\'${3}\'>
+        ${4}
+      </TouchableHighlight>$0
+    """
+  'View':
+    'prefix': 'rnView'
+    'body': '<View style={styles.${1}}>${2}</View>$0'
+  'componentwillMount()':
+    'prefix': 'cwm'
+    'body': """
+      componentWillMount() {
+        ${1}
+      }$0
+    """
+  'componentWillReceiveProps(object nextProps)':
+    'prefix': 'cwrp'
+    'body': """
+      componentWillReceiveProps(nextProps) {
+        ${1}
+      }$0
+    """
+  'componentWillUnmount()':
+    'prefix': 'cwum'
+    'body': """
+      componentWillUnmount() {
+        ${1}
+      }$0
+    """
+  'componentWillUpdate(object nextProps, object nextState)':
+    'prefix': 'cwud'
+    'body': """
+      componentWillUpdate(nextProps, nextState) {
+        ${1}
+      }$0
+    """
+  'constructor()':
+    'prefix': 'constructor()'
+    'body': """
+      constructor(props) {
+        super(props);
+
+        this.state = {};
+      }$0
+    """
+  'Create react-native Class':
+    'prefix': 'rncc'
+    'body': """
+      \'use strict\';
+
+      import React, { Component } from \'react\';
+
+      import {
+        StyleSheet,
+        View,
+      } from \'react-native\';
+
+      class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
+        render() {
+          return (
+            ${2:<View />}
+          );
+        }
+      }
+
+      const styles = StyleSheet.create({
+
+      });
+
+
+      export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};$0
+    """
+  'defaultProps':
+    'prefix': 'defaultProps'
+    'body': """
+      static defaultProps = {
+        ${2:prop}: ${3:\'value\'}
+      }$0
+    """
+  'flex: 1':
+    'prefix': 'f1'
+    'body': 'flex: ${1:1},$0'
+  'justifyContent: \'center\',':
+    'prefix': 'jc'
+    'body': 'justifyContent: \'${1:center}\',$0'
+  'propTypes':
+    'prefix': 'propTypes'
+    'body': """
+      static propTypes = {
+        ${2:prop}: React.PropTypes.${3:Type}
+      }$0
+    """
+  'React.PropTypes.':
+    'prefix': 'rpt'
+    'body': 'React.PropTypes.${1}$0'
+  'shouldComponentUpdate(object nextProps, object nextState)':
+    'prefix': 'scud'
+    'body': """
+      shouldComponentUpdate(nextProps, nextState) {
+        ${1}
+      }$0
+    """
+  'StyleSheet.create()':
+    'prefix': 'ssc'
+    'body': """
+      const styles = StyleSheet.create({
+        ${1}: ${2},
+      });$0
+    """
+  'Create StyleSheet':
+    'prefix': 'css'
+    'body': """
+      /* @flow */
+      \'use strict\';
+
+      import { Stylesheet } from \'react-native\';
+
+      module.exports = StyleSheet.create({
+        ${1}: ${2},
+      });$0
+    """

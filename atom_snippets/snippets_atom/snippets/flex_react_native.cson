@@ -1,5 +1,0 @@
-# Generated with Atomizr – https://atom.io/packages/atomizr
-".source.js,source.jsx":
-	"flex: 1":
-		prefix: "f1"
-		body: "flex: ${1:1},$0"

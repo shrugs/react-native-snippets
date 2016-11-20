@@ -1,9 +1,0 @@
-# Generated with Atomizr – https://atom.io/packages/atomizr
-".source.js,source.jsx":
-	propTypes:
-		prefix: "propTypes"
-		body: '''
-			${1:${TM_FILENAME/(.+)\\..+|.*/$1/:Component}}.propTypes = {
-			  ${2:prop}: React.PropTypes.${3:Type}
-			}$0
-		'''
