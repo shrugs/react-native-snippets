@@ -4,5 +4,5 @@
 }]]></content>
   <tabTrigger>cwm</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>componentwillMount()</description>
+  <description>componentWillMount()</description>
 </snippet>
