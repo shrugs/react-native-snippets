@@ -133,7 +133,7 @@
   'View':
     'prefix': 'rnView'
     'body': '<View style={styles.${1}}>${2}</View>$0'
-  'componentwillMount()':
+  'componentWillMount()':
     'prefix': 'cwm'
     'body': """
       componentWillMount() {
