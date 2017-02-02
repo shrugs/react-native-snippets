@@ -1,0 +1,10 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	PickerIOS:
+		prefix: "<PickerIOS"
+		body: '''
+			<PickerIOS
+			  onValueChange={${1:this.onValueChange}}
+			  selectedValue={${2}}
+			/>$0
+		'''

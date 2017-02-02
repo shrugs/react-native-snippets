@@ -1,0 +1,12 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	ActivityIndicatorIOS:
+		prefix: "<ActivityIndicatorIOS"
+		body: '''
+			<ActivityIndicatorIOS
+			  ${1:animating={true\\}}
+			  ${2:color={'#808080'\\}}
+			  ${3:size={'small'\\}}
+			/>
+			${4}$0
+		'''

@@ -1,0 +1,29 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"Create react-native Class":
+		prefix: "rncc"
+		body: '''
+			'use strict';
+
+			import React, { Component } from 'react';
+
+			import {
+			  StyleSheet,
+			  View,
+			} from 'react-native';
+
+			class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:MyComponent}} extends Component {
+			  render() {
+			    return (
+			      <View />
+			    );
+			  }
+			}
+
+			const styles = StyleSheet.create({
+
+			});
+
+
+			export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:MyComponent}};$0
+		'''

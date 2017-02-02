@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"componentDidUpdate(object prevProps, object prevState)":
+		prefix: "cdud"
+		body: '''
+			componentDidUpdate(prevProps, prevState) {
+			  ${1}
+			}$0
+		'''

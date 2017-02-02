@@ -1,0 +1,9 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	"componentwillMount()":
+		prefix: "cwm"
+		body: '''
+			componentWillMount() {
+			  ${1}
+			}$0
+		'''

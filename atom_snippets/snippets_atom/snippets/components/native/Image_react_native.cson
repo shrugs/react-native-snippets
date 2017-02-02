@@ -1,0 +1,10 @@
+# Generated with Atomizr – https://atom.io/packages/atomizr
+".source.js,source.jsx":
+	Image:
+		prefix: "<Image"
+		body: '''
+			<Image
+			  style={${1}}
+			  source={{uri: '${2}'}} />
+			${3}$0
+		'''
