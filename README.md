@@ -167,10 +167,11 @@ Some snippets heavily inspired by [sublime-react](https://github.com/reactjs/sub
 
 1. Create your snippet.
 2. Postfix your snippets with `_react_native`.
-3. Add them to the README
-4. Submit a Pull Request
-5. ???
-6. Profit!
+3. Generate the Atom snippet file (`make install && make atom`)
+4. Add them to the README
+5. Submit a Pull Request
+6. ???
+7. Profit!
 
 Try to make your snippet tab triggers follow a syllable-based fuzzy-search style. For example for `componentWillUpdate()`, `cwud` is preferred over `cwup`.
 
