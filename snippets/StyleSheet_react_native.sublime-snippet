@@ -3,7 +3,7 @@
 /* @flow */
 'use strict';
 
-import { Stylesheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 module.exports = StyleSheet.create({
   ${1}: ${2},
