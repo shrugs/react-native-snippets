@@ -1,5 +1,5 @@
 install:
-	gem install atmomizr
+	gem install atomizr
 
 atom:
 	atomizr -i "snippets/**/*.sublime-snippet" -o snippets.cson --merge
