@@ -10,6 +10,31 @@
   'flex: 1':
     'prefix': 'f1'
     'body': 'flex: ${1:1},$0'
+  'Create react-native Stateless function':
+    'prefix': 'rnstf'
+    'body': """
+      \'use strict\';
+      
+      import React from \'react\';
+      
+      import {
+        ${4},
+      } from \'react-native\';
+      
+      const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} = (props) => {
+        render() {
+          return (
+            ${3:<View />}
+          );
+        }
+      }
+      
+      const styles = StyleSheet.create({
+      
+      });
+      
+      export default ${2:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};$0
+    """
   'React.PropTypes.':
     'prefix': 'rpt'
     'body': 'React.PropTypes.${1}$0'
