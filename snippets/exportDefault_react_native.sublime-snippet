@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[export default ${1}]]></content>
+  <tabTrigger>ed</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>export default</description>
+</snippet>
