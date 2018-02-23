@@ -1,5 +1,5 @@
 # Generated with Atomizr - https://github.com/idleberg/atomizr.rb
-'.source.jssource.jsx':
+'.source.js,source.jsx':
   'componentDidMount()':
     'prefix': 'cdm'
     'body': """
@@ -14,13 +14,13 @@
     'prefix': 'rnstf'
     'body': """
       \'use strict\';
-      
+
       import React from \'react\';
-      
+
       import {
         ${4},
       } from \'react-native\';
-      
+
       const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} = (props) => {
         render() {
           return (
@@ -28,11 +28,11 @@
           );
         }
       }
-      
+
       const styles = StyleSheet.create({
-      
+
       });
-      
+
       export default ${2:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};$0
     """
   'React.PropTypes.':
@@ -57,9 +57,9 @@
     'body': """
       /* @flow */
       \'use strict\';
-      
+
       import { StyleSheet } from \'react-native\';
-      
+
       module.exports = StyleSheet.create({
         ${1}: ${2},
       });$0
@@ -76,7 +76,7 @@
     'body': """
       constructor(props) {
         super(props);
-      
+
         this.state = {};
       }$0
     """
@@ -220,7 +220,7 @@
       />
       ${4}$0
     """
-  'justifyContent: 'center',':
+  'justifyContent: \'center\',':
     'prefix': 'jc'
     'body': 'justifyContent: \'${1:center}\',$0'
   'componentWillMount()':
@@ -234,14 +234,14 @@
     'prefix': 'rncc'
     'body': """
       \'use strict\';
-      
+
       import React, { Component } from \'react\';
-      
+
       import {
         StyleSheet,
         View,
       } from \'react-native\';
-      
+
       class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
         render() {
           return (
@@ -249,15 +249,15 @@
           );
         }
       }
-      
+
       const styles = StyleSheet.create({
-      
+
       });
-      
-      
+
+
       export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};$0
     """
-  'alignItems: 'center',':
+  'alignItems: \'center\',':
     'prefix': 'ai'
     'body': 'alignItems: \'${1:center}\',$0'
   'componentWillReceiveProps(object nextProps)':
