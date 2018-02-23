@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+'use strict';
+
+import React from 'react';
+
+import {
+  ${4},
+} from 'react-native';
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} = (props) => {
+  render() {
+    return (
+      ${3:<View />}
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+
+});
+
+export default ${2:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};
+]]></content>
+  <tabTrigger>rnstf</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create react-native Stateless function</description>
+</snippet>

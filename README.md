@@ -24,6 +24,11 @@ For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager]
       <td>Scaffolds a full react-native component class.</td>
     </tr>
     <tr>
+      <td>React Native Create Stateless Function</td>
+      <td>rnstf</td>
+      <td>Scaffolds a stateless function.</td>
+    </tr>
+    <tr>
       <td>this.setState()</td>
       <td>tss</td>
     </tr>
@@ -40,6 +45,10 @@ For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager]
     <tr>
       <td>React.PropTypes.</td>
       <td>rpt</td>
+    </tr>
+    <tr>
+      <td>export default</td>
+      <td>ed</td>
     </tr>
 </table>
 
