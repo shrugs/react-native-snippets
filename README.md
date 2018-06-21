@@ -100,6 +100,11 @@ For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager]
     <td>scud</td>
   </tr>
   <tr>
+    <td>mapStateToProps()</td>
+    <td>mstp</td>
+    <td>Scaffolds a mapStateToProps function.</td>
+  </tr>
+  <tr>
     <td>static propTypes = {}</td>
     <td>propTypes</td>
   </tr>

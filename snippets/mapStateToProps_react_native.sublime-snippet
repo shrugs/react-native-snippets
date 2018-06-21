@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[mapStateToProps = (${1:state}) => {
+	const { ${3} } = ${2:state.};
+
+	return { ${4} };
+}]]>
+	
+</content>
+  <content><![CDATA[componentWillMount() {
+  ${1}
+}]]></content>
+  <tabTrigger>mstp</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>mapStateToProps()</description>
+</snippet>
