@@ -50,6 +50,10 @@ For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager]
       <td>export default</td>
       <td>ed</td>
     </tr>
+    <tr>
+      <td>export const</td>
+      <td>es</td>
+    </tr>
 </table>
 
 ### Lifecycle Methods
