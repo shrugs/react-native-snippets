@@ -1,4 +1,4 @@
-# react-native-snippets
+# [Looking for Maintainer] react-native-snippets
 
 A collection of [React Native](https://github.com/facebook/react-native) snippets for Sublime Text and Atom.
 
