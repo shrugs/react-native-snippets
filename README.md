@@ -50,6 +50,10 @@ For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager]
       <td>export default</td>
       <td>ed</td>
     </tr>
+    <tr>
+      <td>export const</td>
+      <td>es</td>
+    </tr>
 </table>
 
 ### Lifecycle Methods
@@ -94,6 +98,11 @@ For Atom, search for `react-native-snippets-horse` in the [Atom Package Manager]
   <tr>
     <td>shouldComponentUpdate()</td>
     <td>scud</td>
+  </tr>
+  <tr>
+    <td>mapStateToProps()</td>
+    <td>mstp</td>
+    <td>Scaffolds a mapStateToProps function.</td>
   </tr>
   <tr>
     <td>static propTypes = {}</td>

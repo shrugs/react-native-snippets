@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[export const ${1}]]></content>
+  <tabTrigger>es</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>export const</description>
+</snippet>
